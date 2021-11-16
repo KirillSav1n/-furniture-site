@@ -1,0 +1,212 @@
+@media (max-width: 767px) {
+  img {
+    max-width: 100%;
+  }
+  .center {
+    padding-left: calc(50% - 171.5px);
+    padding-right: calc(50% - 171.5px);
+  }
+  .header {
+    padding-top: 32px;
+  }
+  .header_links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 32px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .top-input {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .header_text {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    word-break: break-word;
+    text-align: center;
+  }
+  .main_title {
+    margin-top: 29px;
+    line-height: 59px;
+    font-size: 48px;
+  }
+  .main_paragraph {
+    font-size: 16px;
+  }
+  .main_link {
+    font-size: 14px;
+  }
+  .heading {
+    line-height: 24px;
+    font-size: 29px;
+    margin-top: 32px;
+  }
+  .for-grid {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    display: -ms-grid;
+    display: grid;
+    gap: 16px;
+  }
+  .for-item {
+    font-size: 28px;
+    line-height: 34px;
+    grid-column: 1/-1;
+    height: 375px;
+  }
+  .for-item-big {
+    height: 244px;
+  }
+  .product-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .new-price {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .product-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    row-gap: 32px;
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 32px;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 32px;
+  }
+  .product-paragraph {
+    margin-bottom: 8px;
+  }
+  .product-title {
+    margin-top: 9px;
+  }
+  .catalog_top {
+    background-image: url(image/catalog_mobile.jpg);
+  }
+  .header {
+    min-height: 57px;
+    border-bottom: none;
+  }
+  .catalog-title {
+    font-size: 48px;
+    line-height: 59px;
+    margin-top: 100px;
+    text-align: center;
+  }
+  .catalog-line {
+    margin-top: 32px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 16px;
+  }
+  .basket_top {
+    background-image: url(image/bascket_mobile.jpg);
+  }
+  .basket_top_title {
+    font-size: 48px;
+    line-height: 59px;
+    margin-top: 100px;
+    text-align: center;
+  }
+  .img {
+    display: none;
+  }
+  .basket_card {
+    padding-top: 18px;
+    padding-bottom: 24px;
+  }
+  .basket_card_title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .basket_card_about {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .basket_card_price {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .basket_button {
+    margin-top: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .basket_select_button {
+    width: 166px;
+    height: 37px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .basket_select_button_black {
+    font-size: 12px;
+    line-height: 15px;
+    width: 166px;
+    height: 37px;
+    font-family: inherit;
+  }
+  .basket_checkout {
+    max-width: 287px;
+  }
+  .bag {
+    background: url(image/bag.svg) no-repeat center;
+    border: none;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 265px;
+    top: 10px;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  .bag:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    cursor: pointer;
+  }
+  .bag:active {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    cursor: pointer;
+  }
+  .liked {
+    background: url(image/liked.svg) no-repeat center;
+    border: none;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 310px;
+    top: 10px;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  .liked:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    cursor: pointer;
+  }
+  .liked:active {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    cursor: pointer;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */
